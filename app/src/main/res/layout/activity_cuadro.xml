@@ -6,14 +6,13 @@
     android:layout_height="match_parent"
     tools:context="com.example.confix.graphic_android.Cuadro">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
         android:layout_width="344dp"
         android:layout_height="495dp"
         android:gravity="fill_vertical|fill_horizontal"
         android:orientation="vertical"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp">
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,7 +35,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/holo_orange_dark"
-                android:text="Diseño" />
+                android:text="Matemáticas" />
 
             <Button
                 android:id="@+id/button18"
@@ -44,7 +43,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/holo_orange_light"
-                android:text="QA" />
+                android:text="GEometria" />
         </LinearLayout>
 
         <LinearLayout
@@ -60,7 +59,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/holo_purple"
-                android:text="Planeaciòn" />
+                android:text="ESTADISTICA" />
 
             <Button
                 android:id="@+id/button4"
@@ -68,7 +67,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/holo_blue_light"
-                android:text="Dearrollo" />
+                android:text="JUEGO" />
 
             <Button
                 android:id="@+id/button3"
@@ -76,32 +75,39 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/holo_green_light"
-                android:text="Django" />
+                android:text="COLORES" />
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/option"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="3"
+            android:layout_weight="2"
             android:gravity="fill_vertical|fill_horizontal"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btnAceptar"
+                android:id="@+id/button9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:text="Aceptar" />
+                android:background="@android:color/darker_gray"
+                android:text="NOTAS" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:text="Cancelar" />
+                android:background="@android:color/holo_blue_bright"
+                android:text="CADENAS" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_dark"
+                android:text="ACERCA DE" />
         </LinearLayout>
 
     </LinearLayout>

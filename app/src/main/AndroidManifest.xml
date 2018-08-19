@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Cuadro"></activity>
+        <activity android:name=".Cuadro" />
+        <activity android:name=".FisicaActivity" />
+        <activity android:name=".EstadisticaActivity" />
+        <activity
+            android:name=".MatematicaActivity"
+            android:label="@string/title_activity_matematica"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Graphic_android</string>
+    <string name="title_activity_matematica">MatematicaActivity</string>
 </resources>
